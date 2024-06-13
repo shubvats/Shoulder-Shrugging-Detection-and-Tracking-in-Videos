@@ -1,0 +1,19 @@
+This project aims to detect and track shoulder movements, particularly focusing on the action of shoulder shrugging, in videos depicting natural upper body movements. 
+
+1.Video Capture: Users are instructed to provide a video demonstrating natural upper body movements with 
+  clear visibility of the head, shoulders, and upper body against a smooth, uncluttered background.
+
+2.Head Position Detection: The head position is detected in each frame of the video using established 
+  methods such as Viola-Jones or Convolutional Neural Networks (CNNs) for face detection. This serves 
+  as a reference point for subsequent steps.
+
+3.Shoulder Line Detection and Tracking: Shoulder lines are detected and tracked in the video, with options
+  for tracking each shoulder independently or both shoulders together. The goal is to ensure robustness in 
+  detecting shoulder movements.
+
+4.Shoulder Shrugging Detection: The system identifies shoulder shrugging events throughout the video, ranging
+  from subtle to exaggerated movements. These events are clearly indicated in the corresponding frames through 
+  text superimposed on the frames or changes in the color of the calculated shoulder lines.
+
+By combining these steps, the project provides a comprehensive solution for analyzing and understanding shoulder 
+movements in videos, enabling applications in areas such as gesture recognition, motion analysis, and human-computer interaction.
